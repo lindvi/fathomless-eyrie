@@ -1,0 +1,15 @@
+<div class="page first center" ng-click="go()" ng-class="{'hide-this': state !== 0}">
+    <h1>TROLOOLLOLO</h1>
+</div>
+<div class="page second" ng-class="{'hide-this': state !== 1}">
+  <form ng-submit="submit()">
+    <input name="first_name" type="text" required/>
+    <input name="last_name" type="text" required/>
+    <input name="ssn" type="text" required/>
+    <input name="email" type="mail" required/>
+    <input type="submit" />
+  </form>
+</div>
+<div class="page third" ng-class="{'hide-this': state !== 2}">
+  <h1>Thanks!</h1>
+</div>
